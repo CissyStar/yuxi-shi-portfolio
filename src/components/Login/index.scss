@@ -1,0 +1,62 @@
+@import "../../../scss/variables.scss";
+
+// .nav-bar {
+//   background-color: $primary-1;
+
+//   a {
+//     transition: color 0.5s;
+//   }
+//   a:hover {
+//     color: $primary-2;
+//   }
+// }
+
+// .footer {
+//   background-color: $primary-1;
+// }
+
+.login-page {
+  background: linear-gradient(
+    145deg,
+    $primary-5-opacity 0%,
+    $primary-2-opacity 100%
+  );
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+
+  .login-container {
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px $primary-1;
+    text-align: center;
+    padding: 50px 50px 80px 50px;
+
+    input {
+      margin: 20px;
+      height: 40px;
+      width: 200px;
+    }
+    button,
+    .submit {
+      background-color: $primary-2;
+      border: solid 1px $primary-2;
+      width: 100px;
+      height: 35px;
+      border-radius: 20px;
+      font-size: 1.3rem;
+      color: white;
+      transition: background-color 0.5s;
+    }
+
+    button:hover,
+    .submit:hover {
+      background-color: rgba(0, 0, 0, 0);
+      color: $primary-1;
+    }
+  }
+}
