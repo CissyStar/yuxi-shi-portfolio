@@ -7,9 +7,17 @@
   z-index: 1999;
   right: 20px;
   bottom: 50px;
-  background-color: $primary-3;
   padding: 2px;
-  
+
+  .review-box {
+    background-color: $primary-3;
+  }
+  .feedback-button {
+    background-color: $primary-2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
 
   .top-container {
     text-align: right;
@@ -29,7 +37,7 @@
     }
 
     input[type="submit"] {
-        width: 60px;
+      width: 60px;
     }
   }
 }

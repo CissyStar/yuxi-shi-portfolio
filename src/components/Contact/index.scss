@@ -72,7 +72,6 @@
     min-width: 360px;
 
     .map-info {
-      
       width: 500px;
       margin: 0 auto;
       line-height: 50%;
@@ -80,6 +79,13 @@
       svg {
         padding-left: 15px;
       }
+    }
+    @media (max-width: 500px) {
+      .map-info, .map-wrapper{
+      width: 80vw;
+      height: 300px;
+      }
+      
     }
     .map-wrapper {
       margin: 0 auto;
