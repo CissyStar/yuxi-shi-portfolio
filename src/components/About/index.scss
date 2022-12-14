@@ -9,15 +9,19 @@
     $primary-2-opacity
   );
   display: flex;
+  flex-wrap: wrap;
   color: $primary-1;
   margin: 0;
-  padding: 50px;
+  padding: 150px;
+  align-items: center;
+  justify-content: center;
 
   .left-side-container {
-    width: 40vw;
     margin: 0;
     display: flex;
     align-items: center;
+    min-width: 340px;
+    padding: 50px;
 
     .img-container {
       width: 20;
@@ -43,12 +47,18 @@
   .right-side-container {
     padding-left: 2rem;
     text-align: left;
-    width: 60vw;
     line-height: 120%;
     padding-right: 15vw;
     text-align: justify;
+    min-width: 340px;
     h3 {
       text-align: center;
     }
+  }
+}
+
+@media (min-width: 500px) {
+  .about-page-container {
+    flex-wrap: nowrap;
   }
 }

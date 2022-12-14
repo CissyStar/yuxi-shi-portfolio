@@ -109,7 +109,7 @@ const Homepage = () => {
         <div className="right-side-container">
           <div class="right-side-veil"></div>
           <div className="title">
-            <h1>Yuxi Shi!</h1>
+            <h1>Yuxi Shi</h1>
             <h2>Front End Dev</h2>
           </div>
         </div>

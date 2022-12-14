@@ -21,16 +21,31 @@ const Navbar = (props) => {
         <FontAwesomeIcon icon={faCode} color="ffffff" />
       </Link>
       <nav>
-        <HashLink exact="true" activeclassname="active" to="/">
+        <HashLink className="home" exact="true" activeclassname="active" to="/">
           Home
         </HashLink>
-        <HashLink exact="true" activeclassname="active" to="/#about">
+        <HashLink
+          className="about"
+          exact="true"
+          activeclassname="active"
+          to="/#about"
+        >
           About
         </HashLink>
-        <HashLink exact="true" activeclassname="active" to="/#portfolio">
+        <HashLink
+          className="portfolio"
+          exact="true"
+          activeclassname="active"
+          to="/#portfolio"
+        >
           Portfolio
         </HashLink>
-        <HashLink exact="true" activeclassname="active" to="/#contact">
+        <HashLink
+          className="contact"
+          exact="true"
+          activeclassname="active"
+          to="/#contact"
+        >
           Contact
         </HashLink>
         <NavLink exact="true" activeclassname="active" to="/login">

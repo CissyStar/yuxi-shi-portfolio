@@ -49,3 +49,13 @@
     }
   }
 }
+
+@media (max-width: 500px) {
+  .logo,
+  .home,
+  .about,
+  .portfolio,
+  .contact {
+    display: none;
+  }
+}

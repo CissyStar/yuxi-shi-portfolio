@@ -70,29 +70,38 @@
     padding: 50px 20px;
     padding-right: 10vw;
     min-width: 360px;
+    display: flex;
 
-    .map-info {
-      width: 500px;
+    .container {
       margin: 0 auto;
-      line-height: 50%;
+    }
 
+    .map-info {     
+       line-height: 50%;
       svg {
         padding-left: 15px;
       }
     }
-    @media (max-width: 500px) {
-      .map-info, .map-wrapper{
-      width: 80vw;
-      height: 300px;
-      }
-      
-    }
-    .map-wrapper {
-      margin: 0 auto;
-      background-color: $primary-5;
-      width: 500px;
-      height: 400px;
 
+    @media (min-width: 500px) {
+      .container{
+        width: 500px;
+        .map-info {
+          height: 100px;
+        }
+      }
+
+    }
+    @media (max-width: 500px) {
+      .container{
+      width: 80vw;
+      }   
+    }
+
+    .map-wrapper {
+      background-color: $primary-5;
+      height: 350px;
+  
       .leaflet-container {
         width: 100%;
         height: 100%;
