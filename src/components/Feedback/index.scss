@@ -1,0 +1,43 @@
+@import "../../../scss/variables.scss";
+
+.review-container {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  z-index: 1999;
+  right: 20px;
+  bottom: 50px;
+  padding: 2px;
+
+  .review-box {
+    background-color: $primary-3;
+  }
+  .feedback-button {
+    background-color: $primary-2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .top-container {
+    text-align: right;
+
+    .minimise-btn {
+      position: relative;
+      width: 60px;
+    }
+  }
+
+  .feedback-form {
+    text-align: right;
+    textarea {
+      width: 400px;
+      height: 200px;
+      padding: 20px;
+    }
+
+    input[type="submit"] {
+      width: 60px;
+    }
+  }
+}

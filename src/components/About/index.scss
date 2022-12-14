@@ -1,0 +1,54 @@
+@import "../../../scss/variables.scss";
+
+.about-page-container {
+  position: relative;
+  width: 100%;
+  background: linear-gradient(
+    180deg,
+    $primary-1-opacity 0%,
+    $primary-2-opacity
+  );
+  display: flex;
+  color: $primary-1;
+  margin: 0;
+  padding: 50px;
+
+  .left-side-container {
+    width: 40vw;
+    margin: 0;
+    display: flex;
+    align-items: center;
+
+    .img-container {
+      width: 20;
+      height: 200px;
+      border-radius: 20px;
+      box-shadow: 1px 1px 3px grey;
+      margin-top: 100px;
+      margin: 0 auto;
+      overflow: hidden;
+
+      img {
+        height: 200px;
+        cursor: pointer;
+        transition: transform 1s;
+      }
+
+      img:hover {
+        transform: scale(1.2);
+      }
+    }
+  }
+
+  .right-side-container {
+    padding-left: 2rem;
+    text-align: left;
+    width: 60vw;
+    line-height: 120%;
+    padding-right: 15vw;
+    text-align: justify;
+    h3 {
+      text-align: center;
+    }
+  }
+}
