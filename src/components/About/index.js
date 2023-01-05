@@ -22,12 +22,12 @@ const About = () => {
         <h4>Courses Taken</h4>
         <p>Java on Codecademy - Completed</p>
         <p>
-          Front End Development path on Codecademy - In progress, 80% complete
+          Javascript Development course on General Assembly - Completed
         </p>
         <p>
-          Javascript Development course on General Assembly - In progress, 90%
-          complete
+          Front End Development path on Codecademy - In progress, 80% complete
         </p>
+     
         <br />
         <p>
           <strong>My tech skills: </strong>HTML, CSS, Javascript, React, Java

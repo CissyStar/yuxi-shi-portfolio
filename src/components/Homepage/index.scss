@@ -179,17 +179,17 @@
                 }
               }
               &-1 {
-                animation: typing-1 1s 2s steps(10, end) forwards;
+                animation: typing-1 1s 5s steps(10, end) forwards;
               }
               &-2 {
-                animation: typing-2 1s 4s steps(18, end) forwards;
+                animation: typing-2 1s 7s steps(18, end) forwards;
               }
               &-3 {
-                animation: typing-3 0.5s 6s steps(6, end) forwards;
+                animation: typing-3 0.5s 9s steps(6, end) forwards;
               }
               &-4 {
-                animation: typing-4 1s 8s steps(14, end) forwards,
-                  cursor-persist 1s linear 8s infinite;
+                animation: typing-4 1s 11s steps(14, end) forwards,
+                  cursor-persist 1s linear 11s infinite;
               }
               &-2,
               &-4 {

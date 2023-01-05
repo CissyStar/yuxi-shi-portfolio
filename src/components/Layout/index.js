@@ -1,7 +1,7 @@
 import Footer from "../Footer";
 import Navbar from "../Navbar";
 import { Outlet } from "react-router-dom";
-import Feedback from "../Feedback";
+
 
 const Layout = (props) => {
   return (
@@ -10,7 +10,6 @@ const Layout = (props) => {
       <div className="page">
         <Outlet />
       </div>
-      <Feedback />
       <Footer />
     </div>
   );

@@ -10,18 +10,18 @@ let DefaultIcon = L.icon({
 
 const Map = () => {
   return (
-      <div className="map-wrapper">
-        <MapContainer center={[-37.8829111,145.1165628]} zoom={11}>
-          <TileLayer
-            attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-          />
-          <Marker
-            position={[-37.876386, 145.0783153]}
-            icon={DefaultIcon}
-          ></Marker>
-        </MapContainer>
-      </div>
+    <div className="map-wrapper">
+      <MapContainer center={[-37.8829111, 145.1165628]} zoom={11}>
+        <TileLayer
+          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        />
+        <Marker
+          position={[-37.876386, 145.0783153]}
+          icon={DefaultIcon}
+        ></Marker>
+      </MapContainer>
+    </div>
   );
 };
 

@@ -13,7 +13,6 @@ const Portfolio = () => {
 
   const getPortfolio = async () => {
     const querySnapshot = await getDocs(dbRef);
-    console.log(querySnapshot.docs);
     setPortfolio(querySnapshot.docs.map((doc) => doc.data()));
   };
 
