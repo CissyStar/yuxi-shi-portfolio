@@ -1,7 +1,6 @@
 import "./index.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGear, faAngleDown } from "@fortawesome/free-solid-svg-icons";
-import BackgroundVideo from "../../assets/videos/background-video.mp4";
 import { Loader } from "react-loaders";
 import About from "../About";
 import Portfolio from "../Portfolio";
