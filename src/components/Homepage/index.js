@@ -17,11 +17,6 @@ const Homepage = () => {
           color="#848586"
           width={500}
         />
-        <div class="video-container">
-          <video loop autoPlay muted id="bg-video">
-            <source src={BackgroundVideo} type="video/mp4" />
-          </video>
-        </div>
         <div className="left-side-container">
           <div class="left-side-veil"></div>
           <div className="illustration-editor">

@@ -30,7 +30,7 @@ const About = () => {
      
         <br />
         <p>
-          <strong>My tech skills: </strong>HTML, CSS, Javascript, React, Java
+          <strong>My tech skills: </strong>HTML, CSS, Javascript, Typescript, React, Java
         </p>
         <p>
           <strong>My soft skills: </strong>Fast learner, team-player, problem
